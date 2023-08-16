@@ -319,29 +319,9 @@ footer{
 	padding: 40px 0px;
 }
 
-.background-black-992{
-	background-color: black;
-	height: 992px;
-	background-size: cover;
-  	background-repeat: no-repeat;
-}
-
 .background-img{
 	background-image: url("./imgs/background-img.png");
 	background-size: cover;
   	background-repeat: no-repeat;
 }
 
-.background-black-354{
-	background-color: black;
-	height: 354px;
-	background-size: cover;
-  	background-repeat: no-repeat;
-}
-
-.background-black-88{
-	background-color: black;
-	height: 88px;
-	background-size: cover;
-  	background-repeat: no-repeat;
-}
