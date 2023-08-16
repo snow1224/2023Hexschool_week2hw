@@ -51,15 +51,25 @@ table {
   }
 body {
     font-family: 'Bruno Ace SC', cursive;
+	line-height: 1.5;
   }
 .container {
     width: 1296px;
     margin:0 auto;
 	padding: 0 72px;
 }
-nav{
+
+.bg-black{
 	background-color: black;
-	padding: 72px;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+nav{
+	/* background-color: black; */
+	/* padding: 72px; */
 	display: flex;
 }
 nav ul{
@@ -69,10 +79,7 @@ nav ul{
 	justify-content: space-between;
 	align-items: center;
 }
-nav ul li{
-	width: 25%;
-	cursor: pointer;
-}
+
 nav ul li a{
 	text-decoration: none;
 	padding: 5px 10px;
@@ -116,14 +123,14 @@ img{
 	/* source: https://ithelp.ithome.com.tw/articles/10220731 */
 	max-width: 100%;
 	/* https://www.cnblogs.com/soyxiaobi/p/9640729.html */
-	object-fit: none;
+	object-fit: cover;
 }
 
 .banner{
 	display:flex;
 }
 
-.banner ul{
+.banner .banner_flex{
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -166,7 +173,6 @@ h3{
 
 .button{
 	display: flex;
-	font-size: 16px;
 	padding: 12px;
 	margin: 12px;
 	border-radius: 32px;
@@ -176,7 +182,6 @@ h3{
 
 .button-black{
 	display: flex;
-	font-size: 16px;
 	padding: 12px;
 	margin: 12px;
 	border-radius: 32px;
@@ -304,7 +309,6 @@ h3{
 }
 
 .text-16-15{
-	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -322,9 +326,8 @@ footer{
   	background-repeat: no-repeat;
 }
 
-.background-black-920{
+.background-img{
 	background-image: url("./imgs/background-img.png");
-	height: 920px;
 	background-size: cover;
   	background-repeat: no-repeat;
 }
@@ -336,7 +339,9 @@ footer{
   	background-repeat: no-repeat;
 }
 
-/* .background-black-920 .container{
-	padding-top: 72px;
-	padding-left: 72px;
-} */
+.background-black-88{
+	background-color: black;
+	height: 88px;
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
